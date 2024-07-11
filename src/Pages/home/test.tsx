@@ -7,7 +7,6 @@ const FeaturedItems = () => {
     const [categories, setCategories] = useState([]);
 
     useEffect(()=>{
-        // fetch(`${baseUrl}/employees`)
         fetch(`items.json`)
         .then(res=>res.json())
         .then(data=>setCategories(data))
