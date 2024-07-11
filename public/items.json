@@ -1,0 +1,42 @@
+[
+    {
+        "name": "RECLINE FORMA",
+        "price": "$2000",
+        "image": "https://i.ibb.co/cwsTtwX/15.webp"
+    },
+    {
+        "name": "ARTIS PECTORAL",
+        "price": "$1300",
+        "image": "https://i.ibb.co/Pt77WtD/12.webp"
+    },
+    {
+        "name": "Gym Equipment",
+        "price": "$1800",
+        "image": "https://i.ibb.co/p0YJpKB/Gym-Equipment.webp"
+    },
+    {
+        "name": "URETHANE DUMBBELLS",
+        "price": "400",
+        "image": "https://i.ibb.co/wKBTFN1/URETHANE-DUMBBELLS.webp"
+    },
+    {
+        "name": "LEG EXTENSION",
+        "price": "$600",
+        "image": "https://i.ibb.co/2YWGNbQ/LEG-EXTENSION.webp"
+    },
+    {
+        "name": "CABLE STATION",
+        "price": "$1000",
+        "image": "https://i.ibb.co/DQ7swbP/CABLE-STATION.webp"
+    },
+    {
+        "name": "CABLE CROSSOVER",
+        "price": "$400",
+        "image": "https://i.ibb.co/92tLK8Y/CABLE-CROSSOVER.webp"
+    },
+    {
+        "name": "ARTIS RECLINE",
+        "price": "$1499",
+        "image": "https://i.ibb.co/3fZtnk0/ARTIS-RECLINE.webp"
+    }
+]
