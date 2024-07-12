@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "./Logo";
 
 const Header = () => {
@@ -10,10 +10,11 @@ const Header = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li className="nav-btn"><Link to="/about">About</Link></li>
-                    <li className="nav-btn"><Link to="/products">Products</Link></li>
-                    <li className="nav-btn"><Link to="/about">Product Management</Link></li>
-                    <li className="nav-btn"><Link to="/about">Checkout</Link></li>
+                    <li className="nav-btn"><NavLink to="/about">About</NavLink></li>
+                    <li className="nav-btn"><NavLink to="/products">Products</NavLink></li>
+                    <li className="nav-btn"><NavLink to="/product-management">Product Management</NavLink></li>
+                    <li className="nav-btn"><NavLink to="/checkout">Checkout</NavLink></li>
+                    <li className="nav-btn"><NavLink to="/product-cart">Cart</NavLink></li>
                 </ul>
             </div>
             <div className="navbar-end">

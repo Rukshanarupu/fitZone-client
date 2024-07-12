@@ -75,12 +75,13 @@
     }
   }
 
-/* Css is here */
-
+/* Header Css is here */
 .my-btn {
   /* color: black; */
   font-size: 15px;
   border: 2px solid #f1fc00;
+  padding: 6px 15px;
+  border-radius: 7px;
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -92,9 +93,11 @@
   background: #f1fc00 ;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-3px);
-
 }
-
+.menu li > *:not(ul, .menu-title, details, .btn):active, .menu li > *:not(ul, .menu-title, details, .btn).active, .menu li > details > summary:active {
+  background-color: rgb(195, 195, 118);
+  color:black
+}
 /*------------------------- button fifth ----------------*/
 .nav-btn {
   height: 42px;

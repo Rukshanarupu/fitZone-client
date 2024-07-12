@@ -43,7 +43,7 @@ const Products = () => {
 
   return (
     <>
-      <div className="mb-10 mx-auto max-w-screen-xl w-full ">
+      <div className="my-10 mx-auto max-w-screen-xl w-full ">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
           <SearchBar></SearchBar>
           <Category></Category>

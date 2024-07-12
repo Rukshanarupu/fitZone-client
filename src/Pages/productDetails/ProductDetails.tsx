@@ -3,7 +3,7 @@ import { setToCart } from "@/redux/features/cartSlice";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { RootState } from "@/redux/store";
 import { useParams } from "react-router-dom";
-import toast from 'react-hot-toast'
+// import { toast } from "sonner"
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -28,14 +28,20 @@ const ProductDetails = () => {
   const handleAddToCart = async () => {
     if (!isProductOutOfStock) {
       dispatch(setToCart(product));
-      toast.success("Product added to cart successfully!");
+      // toast("Product added to cart successfully!");
+      // Swal.fire({
+      //   title: "Good job!",
+      //   text: "Successfully added to cart!",
+      //   icon: "success"
+      // });
+      alert("Successfully added to cart!")
       console.log("Successfully added cart!");
     }
   };
 
   return (
     <div className="mx-auto max-w-screen-xl w-full">
-      <div className="card card-side shadow-xl mb-8">
+      <div className="card card-side shadow-xl my-8">
         <figure>
           <img
             className="w-full md:h-96"
