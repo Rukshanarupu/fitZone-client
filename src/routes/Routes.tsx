@@ -2,14 +2,14 @@ import { createBrowserRouter,} from "react-router-dom";
 import App from "../App";
 import ErrorPage from "@/Pages/ErrorPage/ErrorPage";
 import Home from "@/Pages/home/Home";
-import About from "@/Pages/About";
+import About from "@/Pages/about/About";
 import Products from "@/Pages/Products/Products";
 import ProductDetails from "@/Pages/productDetails/ProductDetails";
 import Cart from "@/Pages/Cart";
 import Checkout from "@/Pages/checkout/Checkout";
 import SuccessPage from "@/Pages/checkout/SuccessPage";
-import AddProduct from "@/Pages/manageProducts/AddProduct";
 import ManageProducts from "@/Pages/manageProducts/ManageProducts";
+import AddProduct from "@/Pages/manageProducts/AddProduct";
 import UpdateProduct from "@/Pages/manageProducts/UpdateProduct";
 
 const router = createBrowserRouter([

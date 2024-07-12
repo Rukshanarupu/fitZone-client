@@ -29,5 +29,22 @@ export interface TProducts {
 
 
   // product details page type
-// export 
+export type TEmployee={
+  name: string,
+  role: string,
+  image:string,
+  socialLinks: {
+    facebook: string
+    twitter: string
+    instagram: string
+  }
+}
+export type TTestimonial={
+    name: string,
+    feedback: string,
+    image:string,
+    date: string
+    rating: string
+    _id: string
+  }
   

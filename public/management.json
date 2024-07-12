@@ -1,0 +1,43 @@
+
+[
+    {
+    "name": "Abdullah Tajwar",
+    "role": "Chairman",
+    "socialLinks": {
+      "facebook": "https://facebook.com/",
+      "twitter": "https://twitter.com/",
+      "instagram": "https://instagram.com/"
+    },
+    "image": "https://i.ibb.co/Hr3Jmkz/md-ceo-jpg.webp"
+  },
+  {
+    "name": "Asafudullah Prince",
+    "role": "MANAGING DIRECTOR & CEO",
+    "socialLinks": {
+      "facebook": "https://facebook.com/",
+      "twitter": "https://twitter.com/",
+      "instagram": "https://instagram.com/"
+    },
+    "image": "https://i.ibb.co/85QX8mG/IMG-20230921-185641.jpg"
+  },
+  {
+    "name": "Jamiul Haque",
+    "role": "Director of Audit Committee",
+    "socialLinks": {
+      "facebook": "https://facebook.com/",
+      "twitter": "https://twitter.com/",
+      "instagram": "https://instagram.com/"
+    },
+    "image": "https://i.ibb.co/pPZ4QLc/IMG-20230921-185611.jpg"
+  },
+  {
+    "name": "Tonmoy Hasan",
+    "role": "Trainer",
+    "socialLinks": {
+      "facebook": "https://facebook.com/",
+      "twitter": "https://twitter.com/",
+      "instagram": "https://instagram.com/"
+    },
+    "image": "https://i.ibb.co/Y3xWfq5/Tonmoy.jpg"
+  }
+]

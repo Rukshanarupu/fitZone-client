@@ -1,0 +1,34 @@
+[
+  {
+  "_id": "6509eda0f33244c451c78c30",
+  "feedback": "I have been using their products for years and couldn't be happier with the results.",
+  "name": "Manik Sarker ",
+  "date": "2023-09-20",
+  "rating": 3.5,
+  "image": "https://i.ibb.co/6Zts3S2/manik-review.jpg"
+  },
+  {
+  "_id": "6509ee6ef33244c451c78c31",
+  "feedback": "Great customer service and top-quality products.",
+  "name": "Md. Hasan akon ",
+  "date": "2023-09-20",
+  "rating": 4.5,
+  "image": "https://i.ibb.co/DVmVXh0/hasan-review.jpg"
+  },
+  {
+    "_id": "6509ee6ef33244c3r1c78c31",
+  "feedback": "he best fitness equipment I have ever used! Highly recommend.",
+  "name": "Shuvo Dev ",
+  "date": "2023-09-20",
+  "rating": 4,
+  "image": "https://i.ibb.co/rf4r8xT/shuvo-review.jpg"
+  },
+  {
+    "_id": "6509ee6ef33244c3r1c78c31",
+  "feedback": "Their customer support is amazing, always ready to help with any questions.",
+  "name": "Rukshana akter",
+  "date": "2023-09-23",
+  "rating": 3.5,
+  "image": "../src/assets/rupu.jpg"
+  }
+  ]
