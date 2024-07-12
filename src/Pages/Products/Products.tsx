@@ -1,6 +1,6 @@
-import Sorting from "@/components/my-ui/products/Sorting";
+import Sorting from "@/components/my-ui/Sorting";
 import Category from "./Category";
-import SearchBar from "@/components/my-ui/products/SearchBar";
+import SearchBar from "@/components/my-ui/SearchBar";
 import Heading from "@/components/shared/Heading";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { clearCategory } from "@/redux/features/categorySlice";
@@ -46,11 +46,11 @@ const Products = () => {
       <div className="my-10 mx-auto max-w-screen-xl w-full ">
         <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center space-y-4 sm:space-y-0 sm:space-x-4 mb-8">
           <SearchBar></SearchBar>
-          <Category></Category>
           <Sorting></Sorting>
           {/* clear button */}
           <button className="my-btn mt-4" onClick={() => dispatch(clearFilters())}>Clear Filters</button>
         </div>
+        <Category></Category>
         <Heading heading="Products"></Heading>
         {selectedCategory && (
           <div className="mb-4">

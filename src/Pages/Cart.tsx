@@ -53,7 +53,7 @@ const Cart = () => {
                     <p className="text-gray-700 mb-6">Looks like you haven't added anything to your cart yet. Browse our
                     products and find something you like!</p>
                     <div className="flex justify-center">
-                    <Link to="/products" className="btn btn-primary text-white py-2 px-4 rounded hover:bg-blue-600 transition duration-300">
+                    <Link to="/products" className="btn my-btn bg-black text-white transition duration-300">
                       Shop Now
                     </Link>
                     </div>
@@ -97,14 +97,6 @@ const Cart = () => {
                 ))}
               </TableBody>
             </Table>
-            {/* <div className="flex flex-col sm:flex-row justify-between items-center mb-4">
-              <h2 className="text-2xl mb-2 sm:mb-0">
-                Total: ${totalPrice().toFixed(2)}
-              </h2>
-              <Link to="/checkout">
-                <button className="btn btn-primary">Proceed to Checkout</button>
-              </Link>
-            </div> */}
             <div className="flex justify-center gap-5 mt-5">
               <div className="border w-[35%]">
                 <h1 className="bg-white text-black p-2">Coupon</h1>
@@ -124,8 +116,14 @@ const Cart = () => {
                     <div className="my-3 flex justify-between items-center"><p>Vat (7%):</p> <p>${vat.toFixed(2)}</p></div>
                   </div>
                   <div className="my-3 flex justify-between items-center font-semibold"><p>Total:</p> <p>${totalPrice.toFixed(2)}</p></div>
-                  <Link to="/checkout" className=" flex justify-end">
-                    <Button type="submit" className="btn my-btn hover:bg-baseColor py-0">Proceed to Checkout</Button>
+                  <Link
+                    to={{
+                      pathname: "/checkout",
+                      state: { subtotal: subTotal().toFixed(2), vat: vat.toFixed(2), totalPrice: totalPrice.toFixed(2) }
+                    } as unknown as string} 
+                    className="flex justify-end"
+                  >
+                    <Button type="button" className="btn my-btn hover:bg-baseColor py-0">Proceed to Checkout</Button>
                   </Link>
                 </div>
               </div>

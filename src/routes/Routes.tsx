@@ -6,7 +6,11 @@ import About from "@/Pages/About";
 import Products from "@/Pages/Products/Products";
 import ProductDetails from "@/Pages/productDetails/ProductDetails";
 import Cart from "@/Pages/Cart";
-import Checkout from "@/Pages/Checkout";
+import Checkout from "@/Pages/checkout/Checkout";
+import SuccessPage from "@/Pages/checkout/SuccessPage";
+import AddProduct from "@/Pages/manageProducts/AddProduct";
+import ManageProducts from "@/Pages/manageProducts/ManageProducts";
+import UpdateProduct from "@/Pages/manageProducts/UpdateProduct";
 
 const router = createBrowserRouter([
   {
@@ -41,6 +45,22 @@ const router = createBrowserRouter([
       {
         path: "/checkout",
         element: <Checkout></Checkout>,
+      },
+      {
+        path: "/product-success",
+        element: <SuccessPage></SuccessPage>,
+      },
+      {
+        path: "/product-management",
+        element: <ManageProducts></ManageProducts>,
+      },
+      {
+        path: "/add-product",
+        element: <AddProduct></AddProduct>,
+      },
+      {
+        path: "/update-product/:id",
+        element: <UpdateProduct></UpdateProduct>,
       },
     ]
   },

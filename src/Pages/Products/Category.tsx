@@ -18,14 +18,14 @@ import { categoriesArr } from "@/utils/categoryArr";
     };
     return (
       <>
-        <div className="flex space-x-4 mt-4">
-          <label className="text-md font-semibold">Filter product:</label>
+        <div className="flex space-x-4 mt-4 justify-end">
+          <label className="text-md font-semibold underline">Filter product:</label>
           {categoriesArr.map((category) => (
             <label key={category.name} className="flex items-center space-x-2">
-              <input type="checkbox" className="checkbox bg-yellow-200"
+              <input type="checkbox" className="checkbox bg-green-200"
                 onChange={() => handleCategoryChange(category.name)}
               />
-              <span>{category.name}</span>
+              <span className="font-light">{category.name}</span>
             </label>
           ))}
         </div>

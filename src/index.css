@@ -79,7 +79,7 @@
 .my-btn {
   /* color: black; */
   font-size: 15px;
-  border: 2px solid #f1fc00;
+  border: 2px solid #22C55E;
   padding: 6px 15px;
   border-radius: 7px;
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -89,13 +89,13 @@
 }
 .my-btn:hover {
   color: black ;
-  border: 2px solid #f1fc00;
-  background: #f1fc00 ;
+  border: 2px solid #22C55E;
+  background: #22C55E ;
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-3px);
 }
 .menu li > *:not(ul, .menu-title, details, .btn):active, .menu li > *:not(ul, .menu-title, details, .btn).active, .menu li > details > summary:active {
-  background-color: rgb(195, 195, 118);
+  background-color: #8ed4a7;
   color:black
 }
 /*------------------------- button fifth ----------------*/
@@ -129,7 +129,7 @@
   bottom: 0;
   opacity: 0;
   content: "";
-  background: linear-gradient(to right, #f1fc00, #eceddf);
+  background: linear-gradient(to right, #22C55E, #eceddf);
 }
 .nav-btn:hover::before {
   transition: 0.3s all ease;
