@@ -6,6 +6,7 @@ export interface TProducts {
     category: string;
     stock: number;
     image: string;
+    featured_item:boolean
   }
   
   export type TCategoryInitialState = {

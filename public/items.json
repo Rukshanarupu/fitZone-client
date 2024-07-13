@@ -1,42 +1,104 @@
 [
     {
-        "name": "RECLINE FORMA",
-        "price": "$2000",
-        "image": "https://i.ibb.co/cwsTtwX/15.webp"
+    "name": "Treadmill Pro 3000",
+    "price": 1200,
+    "description": "High-performance treadmill with customizable running programs and a large LCD display.",
+    "category": "Cardio Equipment",
+    "stock": 15,
+    "image": "https://www.shutterstock.com/shutterstock/photos/723094507/display_1500/stock-photo-attractive-young-sports-woman-is-working-out-in-gym-doing-cardio-training-on-treadmill-running-on-723094507.jpg",
+    "featured_item":true
     },
     {
-        "name": "ARTIS PECTORAL",
-        "price": "$1300",
-        "image": "https://i.ibb.co/Pt77WtD/12.webp"
+    "name": "Adjustable Dumbbells Set",
+    "price": 150,
+    "description": "Set of adjustable dumbbells with weights ranging from 5 to 50 lbs, ideal for home workouts.",
+    "category": "Gym equipment",
+    "stock": 50,
+    "image": "https://i.ibb.co/fnFNHFD/Dumbbells.jpg",
+    "featured_item":true
     },
     {
-        "name": "Gym Equipment",
-        "price": "$1800",
-        "image": "https://i.ibb.co/p0YJpKB/Gym-Equipment.webp"
+    "name": "Yoga Mat",
+    "price": 25,
+    "description": "Eco-friendly, non-slip yoga mat, perfect for all types of yoga and floor exercises.",
+    "category": "Accessories",
+    "stock": 100,
+    "image": "https://i.ibb.co/wzF2NT6/nature-zen-Eszi6j-Z0-Pfk-unsplash.jpg",
+    "featured_item":true
     },
     {
-        "name": "URETHANE DUMBBELLS",
-        "price": "400",
-        "image": "https://i.ibb.co/wKBTFN1/URETHANE-DUMBBELLS.webp"
+    "name": "Elliptical Trainer",
+    "price": 850,
+    "description": "Smooth and silent elliptical trainer with multiple resistance levels and built-in heart rate monitor.",
+    "category": "Cardio Equipment",
+    "stock": 10,
+    "image": "https://i.ibb.co/jJ1PJ1c/elliptical-machine.jpg",
+    "featured_item":true
     },
     {
-        "name": "LEG EXTENSION",
-        "price": "$600",
-        "image": "https://i.ibb.co/2YWGNbQ/LEG-EXTENSION.webp"
+    "_id": "668fe33405359baaa72da2c4",
+    "name": "Resistance Bands Set",
+    "price": 30,
+    "description": "Versatile set of resistance bands with varying levels of resistance, suitable for all fitness levels.",
+    "category": "Gym equipment",
+    "stock": 200,
+    "image": "https://i.ibb.co/k6kG9rJ/bands.jpg",
+    "featured_item":true
     },
     {
-        "name": "CABLE STATION",
-        "price": "$1000",
-        "image": "https://i.ibb.co/DQ7swbP/CABLE-STATION.webp"
+    "_id": "668fe33405359baaa72da2c5",
+    "name": "Exercise Bike",
+    "price": 500,
+    "description": "Compact and quiet exercise bike with adjustable seat and resistance levels.",
+    "category": "Cardio Equipment",
+    "stock": 25,
+    "image": "https://i.ibb.co/BBj1D2j/bike.jpg",
+    "featured_item":true
     },
     {
-        "name": "CABLE CROSSOVER",
-        "price": "$400",
-        "image": "https://i.ibb.co/92tLK8Y/CABLE-CROSSOVER.webp"
+    "_id": "668fe33405359baaa72da2c6",
+    "name": "Kettle bell 20 lbs",
+    "price": 40,
+    "description": "Durable cast-iron kettle bell, ideal for full-body workouts and strength training.",
+    "category": "Gym equipment",
+    "stock": 75,
+    "image": "https://i.ibb.co/Z6YswLp/ketball.jpg"
     },
     {
-        "name": "ARTIS RECLINE",
-        "price": "$1499",
-        "image": "https://i.ibb.co/3fZtnk0/ARTIS-RECLINE.webp"
+    "_id": "668fe33405359baaa72da2c7",
+    "name": "Foam Roller",
+    "price": 20,
+    "description": "High-density foam roller, perfect for muscle recovery and improving flexibility.",
+    "category": "Accessories",
+    "stock": 150,
+    "image": "https://i.ibb.co/z89F3h6/foam-rollers.jpg"
+    },
+    {
+    "_id": "668fe33405359baaa72da2c8",
+    "name": "Rowing Machine",
+    "price": 700,
+    "description": "Effective full-body workout rowing machine with adjustable resistance and LCD monitor.",
+    "category": "Cardio Equipment",
+    "stock": 8,
+    "image": "https://i.ibb.co/ZgxPj0R/rowing-machine.jpg",
+    "featured_item":true
+    },
+    {
+    "_id": "668fe33405359baaa72da2c9",
+    "name": "Jump Rope",
+    "price": 15,
+    "description": "High-speed jump rope with adjustable length, great for cardio and coordination training.",
+    "category": "Accessories",
+    "stock": 300,
+    "image": "https://i.ibb.co/GMg809J/rope.jpg"
+    },
+    {
+    "name": "Mubassia",
+    "price": 777,
+    "description": "i love this product",
+    "category": "Accessories",
+    "stock": 704,
+    "image": "https://i.ibb.co/QFfBvQN/accessories.jpg",
+    "__v": 0
     }
-]
+    ]

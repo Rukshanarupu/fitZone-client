@@ -24,9 +24,9 @@ const CardAccessory = () => {
             {images.map((image, index) => (
                 <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                    <Card className="h-[300px] bg-transparent border-none">
+                    <Card className="md:h-[300px] bg-transparent border-none">
                         <CardContent className="flex items-center justify-center p-0 w-full flex-col">
-                            <Link to="/products"><img className="h-[300px] w-[450px] rounded" src={image.url} alt={image.alt} /></Link>
+                            <Link to="/products"><img className="md:h-[300px] md:w-[450px] rounded" src={image.url} alt={image.alt} /></Link>
                             <h1 className="-m-10 bg-black text-white w-full py-2 text-center">{image.title}</h1>
                         </CardContent>
                     </Card>

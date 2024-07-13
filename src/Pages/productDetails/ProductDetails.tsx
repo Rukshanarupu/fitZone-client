@@ -9,7 +9,7 @@ import { toast } from "sonner"
 const ProductDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { data, isLoading } = useGetSpecificProductQuery(id);
+  const { data, isLoading, refetch } = useGetSpecificProductQuery(id);
   // destructure single product
   const product = data?.data;
   const dispatch = useAppDispatch();
@@ -36,6 +36,7 @@ const ProductDetails = () => {
       //   text: "Successfully added to cart!",
       //   icon: "success"
       // });
+      refetch()
       alert("Successfully added to cart!")
       console.log("Successfully added cart!");
       navigate("/product-cart");
