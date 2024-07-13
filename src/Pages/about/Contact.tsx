@@ -5,7 +5,7 @@ const Contact = () => {
     const { register } = useForm();
     return (
         <>
-          <div className=" md:w-3/4 md:mx-auto mb-8 p-4">
+          <div className=" w-full md:w-3/4 md:mx-auto mb-8 md:p-4">
             <div className="w-full h-full shadow-sm shadow-white">
               <div className="bg-slate-200 text-black p-2 ">
               <h1 className="text-3xl font-bold ">Contact Us</h1>

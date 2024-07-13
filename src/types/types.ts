@@ -44,7 +44,7 @@ export type TTestimonial={
     feedback: string,
     image:string,
     date: string
-    rating: string
+    rating: number
     _id: string
   }
   

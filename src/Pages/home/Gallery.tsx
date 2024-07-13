@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
     <div className='mx-auto w-full max-w-screen-xl'>
         <Heading heading="Our Gallery"></Heading>
-        <div className="gallery grid grid-cols-4 gap-4 mt-5">
+        <div className="gallery grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
             <div>
                 <img className='mb-4 w-full' src="https://i.ibb.co/Z6YswLp/ketball.jpg" alt="image1" />
                 <img className='mb-4  w-full' src="https://www.shutterstock.com/shutterstock/photos/723094507/display_1500/stock-photo-attractive-young-sports-woman-is-working-out-in-gym-doing-cardio-training-on-treadmill-running-on-723094507.jpg" alt="image1" />

@@ -27,7 +27,7 @@ const AboutUs = () => {
     },[])
     console.log(employees)
 
-    const renderStars = (rating) => {
+    const renderStars = (rating:number) => {
       const fullStars = Math.floor(rating);
       const hasHalfStar = rating % 1 !== 0;
       

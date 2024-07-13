@@ -1,12 +1,14 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import { useGetSpecificProductQuery } from "@/redux/api/productApi";
 import { setToCart } from "@/redux/features/cartSlice";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { RootState } from "@/redux/store";
-import { useParams } from "react-router-dom";
-// import { toast } from "sonner"
+import { useNavigate, useParams } from "react-router-dom";
+import { toast } from "sonner"
 
 const ProductDetails = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const { data, isLoading } = useGetSpecificProductQuery(id);
   // destructure single product
   const product = data?.data;
@@ -28,7 +30,7 @@ const ProductDetails = () => {
   const handleAddToCart = async () => {
     if (!isProductOutOfStock) {
       dispatch(setToCart(product));
-      // toast("Product added to cart successfully!");
+      toast("Product added to cart successfully!");
       // Swal.fire({
       //   title: "Good job!",
       //   text: "Successfully added to cart!",
@@ -36,12 +38,13 @@ const ProductDetails = () => {
       // });
       alert("Successfully added to cart!")
       console.log("Successfully added cart!");
+      navigate("/product-cart");
     }
   };
 
   return (
     <div className="mx-auto max-w-screen-xl w-full">
-      <div className="card card-side shadow-xl my-8">
+      <div className="card md:card-side shadow-xl my-8">
         <figure>
           <img
             className="w-full md:h-96"

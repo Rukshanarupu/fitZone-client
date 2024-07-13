@@ -97,8 +97,8 @@ const Cart = () => {
                 ))}
               </TableBody>
             </Table>
-            <div className="flex justify-center gap-5 mt-5">
-              <div className="border w-[35%]">
+            <div className="md:flex justify-center gap-5 mt-5">
+              <div className="border md:w-[50%] lg:w-[35%] mb-5">
                 <h1 className="bg-white text-black p-2">Coupon</h1>
                 <div className="px-2 pb-4">
                 <p className="my-3">Enter your coupon code if you have one.</p>
@@ -108,7 +108,7 @@ const Cart = () => {
                 </div>
                 </div>
               </div>
-              <div className="border w-[35%]">
+              <div className="border md:w-[50%] lg:w-[35%]">
                 <h1 className="bg-white text-black p-2">CART TOTALS</h1>
                 <div className="px-2 pb-4 ">
                   <div className="border-b-2 border-slate-700">

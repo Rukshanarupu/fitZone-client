@@ -18,11 +18,11 @@ import { categoriesArr } from "@/utils/categoryArr";
     };
     return (
       <>
-        <div className="flex space-x-4 mt-4 justify-end">
+        <div className="md:flex space-x-4 mt-4 justify-end">
           <label className="text-md font-semibold underline">Filter product:</label>
           {categoriesArr.map((category) => (
             <label key={category.name} className="flex items-center space-x-2">
-              <input type="checkbox" className="checkbox bg-green-200"
+              <input type="checkbox" className="checkbox bg-green-200 mb-1"
                 onChange={() => handleCategoryChange(category.name)}
               />
               <span className="font-light">{category.name}</span>
