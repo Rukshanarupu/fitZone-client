@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Footer = () => {
     return (
-        <div className="w-full max-w-screen-xl mx-auto pt-10 pl-2 md:pl-0">
+        <div className="pt-10 pl-2 md:pl-0">
         <div className="md:flex gap-5 border-b-[1px] border-b-gray-800 pb-5">
             <div className="md:w-1/3">
                 <Logo/>

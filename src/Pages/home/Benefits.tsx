@@ -55,9 +55,9 @@ const Benefits = () => {
     };
 
     return (
-        <div className='w-full max-w-screen-xl mx-auto py-10'>
+        <div className='py-10'>
             <Heading heading='Benefits of Our Products'></Heading>
-            <div className="benefits-carousel">
+            <div className="benefits-carousel w-[95%] mx-auto">
                 <Slider {...settings}>
                     {benefits?.map((item, index) => (
                     <div key={index} className="p-4">

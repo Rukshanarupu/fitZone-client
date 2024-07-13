@@ -3,7 +3,7 @@ import Heading from "@/components/shared/Heading";
 const Gallery = () => {
 
   return (
-    <div className='mx-auto w-full max-w-screen-xl'>
+    <div className=''>
         <Heading heading="Our Gallery"></Heading>
         <div className="gallery grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
             <div>

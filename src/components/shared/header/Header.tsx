@@ -8,7 +8,7 @@ const Header = () => {
     const cart = useAppSelector((state: RootState) => state.cart);
     console.log(cart.items.length);
     return (
-        <div className="w-full max-w-screen-xl mx-auto navbar">
+        <div className="navbar">
 
             <div className="navbar-start">
                 <div className="dropdown ">

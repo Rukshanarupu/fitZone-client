@@ -7,11 +7,13 @@ const MainLayout = () => {
 
     return (
         <div className="bg-slate-900 text-white min-h-screen">
-            <Header></Header>
-            <div className="">
-                <Outlet></Outlet>
+            <div className=" mx-auto max-w-screen-xl w-full">
+                <Header></Header>
+                <div className="">
+                    <Outlet></Outlet>
+                </div>
+                <Footer></Footer>
             </div>
-            <Footer></Footer>
         </div>
     );
 };

@@ -44,7 +44,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="w-full max-w-screen-xl mx-auto">
+    <div className="">
       <div className=" p-4 my-8">
         {cart?.items.length === 0 ? (
             <div className="flex flex-col items-center justify-center ">

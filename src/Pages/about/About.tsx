@@ -45,7 +45,7 @@ const AboutUs = () => {
     };
   return (
     <>
-      <div className="max-w-screen-xl w-full mx-auto">
+      <div className="">
         {/* Company Overview */}
         <section className="text-center">
           <h2 className="text-3xl font-bold mb-4">Company Overview</h2>

@@ -3,7 +3,7 @@ const Hero = () => {
     return (
         <div className="hero md:min-h-screen">
             <div className="grid grid-cols-2 items-center">
-                <div className="w-full md:w-[80%] mx-auto p-2">
+                <div className="w-full md:w-[80%] p-2">
                     <p className="text-baseColor font-semibold text-lg">Fitzone Store</p>
                     <h1 className="text-xl md:text-3xl lg:text-5xl font-bold my-5">The Most Complete Gym equipment and accessories Store</h1>
                     <p className="py-6 hidden md:block">

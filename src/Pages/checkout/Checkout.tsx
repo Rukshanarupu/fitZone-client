@@ -42,7 +42,7 @@ const Checkout = () => {
     }
   };
   return (
-    <div className="mx-auto max-w-screen-xl w-full">
+    <div className="">
         <div className="grid lg:grid-cols-2 md:justify-between justify-center mb-8">
             <div className="p-4 text-white w-full">
                 <h1 className="text-2xl font-bold p-2 bg-slate-200 text-black">Billing Details</h1>

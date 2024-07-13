@@ -21,7 +21,7 @@ const ManageProducts = () => {
   };
 
   return (
-    <div className="max-w-screen-xl mx-auto w-full">
+    <div className="">
       <div className="overflow-x-auto my-8">
         <h1 className="text-3xl font-bold mb-4">Product Management</h1>
         <Table className="border bg-slate-800">

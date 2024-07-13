@@ -44,7 +44,7 @@ const ProductDetails = () => {
   };
 
   return (
-    <div className="mx-auto max-w-screen-xl w-full">
+    <div className="">
       <div className="card md:card-side shadow-xl my-8">
         <figure>
           <img
